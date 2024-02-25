@@ -9,7 +9,6 @@ function App() {
     useEffect(() => {
         fetchBooks()
     }, [])
-
     
     return (
         <div className="app">
@@ -18,7 +17,6 @@ function App() {
             <BookCreate />
         </div>
     )
-    console.log("aaa")
 }
 
 export default App 
