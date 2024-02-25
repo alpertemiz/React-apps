@@ -18,6 +18,7 @@ function App() {
             <BookCreate />
         </div>
     )
+    console.log("aaa")
 }
 
 export default App 
